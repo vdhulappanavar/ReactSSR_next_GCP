@@ -1,0 +1,20 @@
+{
+  "name": "my-serverless-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "next",
+    "build": "next build",
+    "deploy": "gcloud beta functions deploy my-serverless-app-1_0_0 --entry-point handler --trigger-http --stage-bucket medium-post-functions --memory=2048MB"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "next": "^8.1.0",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6"
+  }
+}
