@@ -12,7 +12,7 @@
 # limitations under the License.
 
 # [START gae_quickstart_yaml]
-service: testNodeApp
+service: testnodeapp
 runtime: nodejs8
 instance_class: F4_1G
 #resources:
