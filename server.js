@@ -3,7 +3,6 @@ const express = require('express');
 const app = express();
 const cors = require('cors');
 const bodyParser = require('body-parser');
-const errorHandler = require('_helpers/error-handler');
 const path = require('path')
 const csp = require('helmet-csp')
 /*
@@ -28,7 +27,6 @@ app.post('/mockCheckPost', function (req, res) {
 
   })
 // global error handler
-app.use(errorHandler);
 
 const PORT = process.env.PORT || 4000;
 app.listen(PORT, () => {
