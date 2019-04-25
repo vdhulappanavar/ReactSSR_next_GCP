@@ -7,7 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "next",
     "build": "next build",
-    "deploy": "gcloud beta functions deploy my-serverless-app-1_0_0 --runtime nodejs10 --entry-point handler --trigger-http --memory=2048MB"
+    "deploy": "gcloud beta functions deploy render — runtime nodejs8 — trigger-http"
   },
   "keywords": [],
   "author": "",
